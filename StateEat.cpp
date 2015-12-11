@@ -11,6 +11,7 @@ StateEat * StateEat::get_instance()
 void StateEat::update(Human & human)
 {
 	std::cout << "‹xŒe’†" << std::endl;
+	/*
 	motivation = 3;
 	hunger += 1;
 	if (hunger >= 5)
@@ -21,6 +22,7 @@ void StateEat::update(Human & human)
 	{
 		change_state(State::studying);
 	}
+	//*/
 }
 
 

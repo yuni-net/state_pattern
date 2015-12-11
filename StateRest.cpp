@@ -11,6 +11,7 @@ StateRest * StateRest::get_instance()
 void StateRest::update(Human & human)
 {
 	std::cout << "‹xŒe’†" << std::endl;
+	/*
 	motivation = 3;
 	hunger += 1;
 	if (hunger >= 5)
@@ -21,6 +22,7 @@ void StateRest::update(Human & human)
 	{
 		change_state(State::studying);
 	}
+	//*/
 }
 
 
