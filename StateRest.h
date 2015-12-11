@@ -1,10 +1,10 @@
 #pragma once
 #include "HumanState.h"
 
-class StateStudy :public HumanState
+class StateRest :public HumanState
 {
 public:
-	static StateStudy * get_instance();
+	static StateRest * get_instance();
 
 	// @Override
 	void update(Human & human);
@@ -12,7 +12,7 @@ public:
 
 
 private:
-	StateStudy();
+	StateRest();
 
-	~StateStudy();
+	~StateRest();
 };

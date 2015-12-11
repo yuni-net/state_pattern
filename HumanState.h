@@ -5,13 +5,11 @@ class Human;
 class HumanState
 {
 public:
-	HumanState();
 
-	virtual void update(Human & human);
-
+	virtual void update(Human & human)=0;
 
 
-	~HumanState();
+
 private:
 
 };

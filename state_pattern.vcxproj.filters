@@ -24,6 +24,15 @@
     <ClCompile Include="Human.cpp">
       <Filter>Human</Filter>
     </ClCompile>
+    <ClCompile Include="StateStudy.cpp">
+      <Filter>Human</Filter>
+    </ClCompile>
+    <ClCompile Include="StateRest.cpp">
+      <Filter>Human</Filter>
+    </ClCompile>
+    <ClCompile Include="StateEat.cpp">
+      <Filter>Human</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Human.h">
@@ -33,6 +42,12 @@
       <Filter>Human</Filter>
     </ClInclude>
     <ClInclude Include="StateStudy.h">
+      <Filter>Human</Filter>
+    </ClInclude>
+    <ClInclude Include="StateRest.h">
+      <Filter>Human</Filter>
+    </ClInclude>
+    <ClInclude Include="StateEat.h">
       <Filter>Human</Filter>
     </ClInclude>
   </ItemGroup>

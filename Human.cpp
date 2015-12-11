@@ -1,21 +1,25 @@
 #include <iostream>
 #include "Human.h"
+#include "HumanState.h"
+#include "StateRest.h"
 
 Human::Human()
 {
-	state = State::resting;
+	state = StateRest::get_instance();
 	hunger = 0;
 	fatigue = 0;
 	motivation = 3;
 }
 
-void Human::change_state(const int state)
+void Human::change_state(HumanState * state)
 {
 	this->state = state;
 }
 
 void Human::life()
 {
+	state->update(*this);
+	/*
 	switch (state)
 	{
 	case State::studying:
@@ -53,4 +57,5 @@ void Human::life()
 		change_state(State::resting);
 		break;
 	}
+	//*/
 }

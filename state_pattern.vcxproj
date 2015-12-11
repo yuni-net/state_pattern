@@ -148,10 +148,15 @@
   <ItemGroup>
     <ClCompile Include="Human.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="StateEat.cpp" />
+    <ClCompile Include="StateRest.cpp" />
+    <ClCompile Include="StateStudy.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Human.h" />
     <ClInclude Include="HumanState.h" />
+    <ClInclude Include="StateEat.h" />
+    <ClInclude Include="StateRest.h" />
     <ClInclude Include="StateStudy.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
